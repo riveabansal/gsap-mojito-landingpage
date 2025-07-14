@@ -65,31 +65,31 @@ const Hero = () => {
     return (
         <>
             <section id="hero" className="noisy">
-                <h1 className="title">MOJITO</h1>
+                <h1 className="title">ESPRESSO</h1>
                 <img src="/images/hero-left-leaf.png" alt="left-leaf" className="left-leaf" />
                 <img src="/images/hero-right-leaf.png" alt="right-leaf" className="right-leaf" />
 
                 <div className="body">
                     <div className="content">
                         <div className="space-y-5 hidden md:block">
-                            <p>Cool. Crisp. Classic.</p>
+                            <p>Bold. Smooth. Aromatic.</p>
                             <p className='subtitle'>
-                                Sip the Spirit <br /> of Summer
+                                Savour the Soul <br /> of Every Brew
                             </p>
                         </div>
 
                         <div className="view-cocktails">
                             <p className="subtitle">
-                                Every cocktail on our menu is a blend of premium ingredients, creative flair, and timeless recipes, designed to delight your senses.
+                                Every cup on our menu is a blend of rich beans, barista artistry, and classic methods, crafted to awaken your senses.
                             </p>
-                            <a href="#cocktails">View Cocktails</a>
+                            <a href="#cocktails">View Brews</a>
                         </div>
                     </div>
                 </div>
             </section>
 
             <div className="video absolute inset-0">
-                <video ref={videoRef} src="/videos/output.mp4" muted playsInline preload="auto" />
+                <video ref={videoRef} src="/videos/input.mp4" muted playsInline preload="auto" />
             </div>
         </>
     )

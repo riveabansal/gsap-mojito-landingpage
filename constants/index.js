@@ -1,7 +1,7 @@
 const navLinks = [
  {
 	id: "cocktails",
-	title: "Cocktails",
+	title: "Coffee Brews",
  },
  {
 	id: "about",
@@ -19,56 +19,56 @@ const navLinks = [
 
 const cocktailLists = [
  {
-	name: "Chapel Hill Shiraz",
-	country: "AU",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Caten Malbee",
-	country: "AU",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Rhino Pale Ale",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Irish Guinness",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+    name: "Ethiopia Yirgacheffe",
+    country: "ET",
+    detail: "Pour-over (12 oz)",
+    price: "$6",
+  },
+  {
+    name: "Sumatra Mandheling",
+    country: "ID",
+    detail: "French Press (12 oz)",
+    price: "$6.5",
+  },
+  {
+    name: "Colombia Supremo",
+    country: "CO",
+    detail: "Espresso (double shot)",
+    price: "$4.5",
+  },
+  {
+    name: "Kenya AA",
+    country: "KE",
+    detail: "Chemex Brew (16 oz)",
+    price: "$7",
+  },
 ];
 
 const mockTailLists = [
  {
-	name: "Tropical Bloom",
-	country: "US",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Passionfruit Mint",
-	country: "US",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Citrus Glow",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Lavender Fizz",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+    name: "Cascara Tonic",
+    country: "CR",
+    detail: "Sparkling Cascara & Espresso (12 oz)",
+    price: "$6.5",
+  },
+  {
+    name: "Mint Mojito Cold Brew",
+    country: "BR",
+    detail: "Iced Mint-Infused Coffee (16 oz)",
+    price: "$7",
+  },
+  {
+    name: "Citrus Cold Brew",
+    country: "GT",
+    detail: "Cold Brew with Orange Peel (12 oz)",
+    price: "$6",
+  },
+  {
+    name: "Lavender Honey Iced Latte",
+    country: "HN",
+    detail: "Espresso with Milk & Syrup (16 oz)",
+    price: "$6.5",
+  },
 ];
 
 const profileLists = [
@@ -87,17 +87,17 @@ const profileLists = [
 ];
 
 const featureLists = [
- "Perfectly balanced blends",
- "Garnished to perfection",
- "Ice-cold every time",
- "Expertly shaken & stirred",
+  "Perfectly balanced roasts",
+  "Beautifully layered pours",
+  "Served hot or chilled to perfection",
+  "Crafted with precision and care",
 ];
 
 const goodLists = [
- "Handpicked ingredients",
- "Signature techniques",
- "Bartending artistry in action",
- "Freshly muddled flavors",
+  "Sourced from single-origin beans",
+  "Expertly dialed-in extractions",
+  "Barista craftsmanship in every cup",
+  "Infused with natural flavors and botanicals",
 ];
 
 const storeInfo = {
@@ -105,15 +105,13 @@ const storeInfo = {
  address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
  contact: {
 	phone: "(555) 987-6543",
-	email: "hello@jsmcocktail.com",
+	email: "hello@mochabloom.com",
  },
 };
 
 const openingHours = [
- { day: "Mon–Thu", time: "11:00am – 12am" },
- { day: "Fri", time: "11:00am – 2am" },
- { day: "Sat", time: "9:00am – 2am" },
- { day: "Sun", time: "9:00am – 1am" },
+ { day: "Mon–Fri", time: "11:00am – 10pm" },
+ { day: "Sat-Sun", time: "9:00am – 10pm" },
 ];
 
 const socials = [
@@ -135,38 +133,38 @@ const socials = [
 ];
 
 const sliderLists = [
- {
-	id: 1,
-	name: "Classic Mojito",
-	image: "/images/drink1.png",
-	title: "Simple Ingredients, Bold Flavor",
-	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
- },
- {
-	id: 2,
-	name: "Raspberry Mojito",
-	image: "/images/drink2.png",
-	title: "A Zesty Classic That Never Fails",
-	description:
-	 "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
- },
- {
-	id: 3,
-	name: "Violet Breeze",
-	image: "/images/drink3.png",
-	title: "Simple Ingredients, Bold Flavor",
-	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
- },
- {
-	id: 4,
-	name: "Curacao Mojito",
-	image: "/images/drink4.png",
-	title: "Crafted With Care, Poured With Love",
-	description:
-	 "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
- },
+  {
+    id: 1,
+    name: "Velvet Espresso",
+    image: "/images/drink1.png",
+    title: "Simple Beans, Bold Flavor",
+    description:
+      "Crafted with freshly ground Arabica beans and pulled to perfection, this espresso delivers deep chocolate notes and a rich crema. A timeless choice for pure coffee lovers.",
+  },
+  {
+    id: 2,
+    name: "Iced Citrus Cold Brew",
+    image: "/images/drink2.png",
+    title: "A Bright Brew That Never Fails",
+    description:
+      "Cold-steeped for 18 hours and infused with a hint of orange zest, this cold brew balances smooth richness with a tangy finish. Refreshing and energizing, any time of day.",
+  },
+  {
+    id: 3,
+    name: "Lavender Honey Latte",
+    image: "/images/drink3.png",
+    title: "Comfort in Every Sip",
+    description:
+      "A delicate fusion of espresso, steamed milk, lavender essence, and honey. This floral-forward latte soothes the senses while delivering a creamy, aromatic experience.",
+  },
+  {
+    id: 4,
+    name: "Spiced Cascara Tonic",
+    image: "/images/drink4.png",
+    title: "Crafted With Care, Poured With Intention",
+    description:
+      "This sparkling drink blends cascara (coffee cherry tea) with tonic and a whisper of clove and cardamom. A lightly caffeinated, botanical twist on iced coffee culture.",
+  },
 ];
 
 export {

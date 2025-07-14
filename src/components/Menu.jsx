@@ -12,7 +12,7 @@ const Menu = () => {
 
     useGSAP(() => {
         gsap.fromTo('#title', {opacity:0}, {opacity:1, duration:1})
-        gsap.fromTo('.cocktail img', { opacity: 0, xPercent: -100}, { xPercent: 0, opacity: 1, duration: 1, ease: "power1.inOut" })
+        gsap.fromTo('.cocktail img', { opacity: 0, xPercent: -130}, { xPercent: -30, opacity: 1, duration: 1, ease: "power1.inOut" })
         gsap.fromTo('.details h2', { opacity: 0, yPercent: 100 }, { opacity: 100, yPercent: 0, ease: "power1.inOut" })
         gsap.fromTo('.details p', { opacity: 0, yPercent: 100 }, { opacity: 100, yPercent: 0, ease: "power1.inOut" })
     }, [currentIndex])
