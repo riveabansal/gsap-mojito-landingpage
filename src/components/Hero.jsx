@@ -65,7 +65,7 @@ const Hero = () => {
     return (
         <>
             <section id="hero" className="noisy">
-                <h1 className="title">ESPRESSO</h1>
+                <h1 className="title">BREVE</h1>
                 <img src="/images/hero-left-leaf.png" alt="left-leaf" className="left-leaf" />
                 <img src="/images/hero-right-leaf.png" alt="right-leaf" className="right-leaf" />
 
@@ -89,7 +89,7 @@ const Hero = () => {
             </section>
 
             <div className="video absolute inset-0">
-                <video ref={videoRef} src="/videos/input.mp4" muted playsInline preload="auto" />
+                <video ref={videoRef} src="/videos/output.mp4" muted playsInline preload="auto" />
             </div>
         </>
     )
