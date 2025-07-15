@@ -8,7 +8,7 @@
 }
 
 @theme {
-    --color-yellow: #e7d393;
+    --color-yellow: #dbc1ac;
     --color-white-100: #efefef;
     --font-sans: "Mona Sans", sans-serif;
     --font-modern-negra: "Modern Negra", sans-serif;
@@ -18,8 +18,8 @@
 html,
 body {
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: #201b18;
+    color: #fffff0;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 @utility text-gradient {
-    background: linear-gradient(to bottom, #ffffff, #898989);
+    background: linear-gradient(to bottom, #fffff0, #967d6c);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -46,8 +46,8 @@ body {
 @utility radial-gradient {
     background: radial-gradient(
         circle at center,
-        #434343 0%,
-        #000 50%,
+        #634832 0%,
+        #201b18 50%,
         transparent 100%
     );
 }
